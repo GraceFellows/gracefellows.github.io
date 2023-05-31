@@ -1,0 +1,100 @@
+body{
+    background-color: #78AE48;
+    background-image: url(Transition.png);
+    margin: 0 0 0 0;
+}
+* { 
+    outline: 1px dotted rgb(255, 0, 174);
+}
+
+.headimage {
+	/* background-image: url(Gal5.png); */
+	height: 150px;
+    width: 100%;
+    background-size: contain;
+    max-height: 150px;
+    background-color: #475149;
+}
+
+.header {
+    padding-bottom: 20px;
+	color: 	#79c156;
+    height: 120px;
+	font-size: 20px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    bottom: 60px;
+    align-content: left;
+    left: 0;
+    width: 100%;
+}
+
+.links {
+    margin-top: 50px;
+    font-size: 1rem;
+    -webkit-text-stroke-color: whitesmoke;
+    text-align: right;
+    font-family:'Ubuntu', sans-serif;
+    color: #78AE48;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 50px;
+}
+
+.banner {
+    padding: 0px 0;
+    height: 120vh;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.note3{
+    max-width: 200px;
+    width: 30%;
+    height: auto;
+    padding-left: 150px;
+}
+.post3_img{
+    max-width: 100%;  
+    height: auto;  
+}
+
+.note2{
+    width: 300;
+    background-size: contain;
+    margin-left: 50px;
+    padding-left: 100px;
+}
+.post2_img{
+   width: 100%;  
+    height: auto;  
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+    background-color: #78AE48;
+    }
+}
+
