@@ -54,7 +54,7 @@ body{
 
 .banner {
     padding: 0px 0;
-    height: 120vh;
+    height: 110vh;
     text-align: center;
     margin-top: 0px;
     position: relative;
@@ -69,7 +69,128 @@ body{
     height: auto;
 }
 
-.note3{
+.shape {
+    width:500px;
+    height:100px;
+    background-color: #475149;
+    outline: 100px whitesmoke;
+    text-align: right;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20em 20em 20em 20em;
+    align-content: center;
+}
+
+.Trees {
+    padding: 0px 0;
+    height: 100vh;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.trees_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.location {
+    padding: 0px 0;
+    height: 110vh;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.parkLocation {
+    position: absolute;
+   
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+/*services page*/
+
+#container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; /* lays out the collumns for the grid*/
+    margin: auto; /* fractional units, for quarters made up of 1fr*/
+    max-width: auto;
+    max-height: 1000vh;
+    }
+    #sign {
+    background-color: rgb(30, 59, 103);
+    grid-column: 1/3;
+    height: 400px;
+    background-image: url(Park\ Sign.jpeg);
+    }
+    
+    #trees {
+    display: grid;
+    background-color: rgb(242, 176, 193);
+    grid-template-columns: 50% 50%;
+    height: 500px;
+    padding: 20px;
+    max-width: auto;
+    grid-column: 1/3;
+    background-image: url(Trees.png);
+    }
+
+    #bigbox {
+        background-color: rgb(30, 59, 103);
+        grid-column: 1/3;
+        height: 300px;
+        background-image: url(Park\ Sign.jpeg);
+        max-width: auto;
+        }
+   #locationimg {
+        display: grid;
+        background-color: rgb(117, 200, 152);
+        grid-template-columns: 50% 50%;
+        height: 600px;
+        max-width: auto;
+        padding: 20px;
+        grid-column: 1/3;
+        background-image: url(Trees.png);
+        }
+
+        #img1 {
+        background-color: rgb(243, 243, 162);
+        margin: 20px;
+        background-image: url(Trees.png);
+        }
+    
+        #img2 {
+            background-color: rgb(243, 243, 162);
+            margin: 20px;
+            background-image: url(Trees.png);
+            }
+        
+            
+            #img3 {
+                background-color: rgb(243, 243, 162);
+                margin: 20px;
+                background-image: url(Trees.png);
+                }
+                
+                #img4 {
+                    background-color: rgb(243, 243, 162);
+                    margin: 20px;
+                    background-image: url(Trees.png);
+                    }
+                    
+    
+
+/*.note3{
     max-width: 200px;
     width: 30%;
     height: auto;
@@ -90,11 +211,10 @@ body{
    width: 100%;  
     height: auto;  
 }
-
+*/
 
 @media screen and (max-width: 480px) {
     body {
     background-color: #78AE48;
     }
 }
-
