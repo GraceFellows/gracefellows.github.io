@@ -35,7 +35,7 @@ body{
     bottom: 60px;
     align-content: left;
     left: 0;
-    width: 100%;
+    width: 100px;
 }
 
 .links {
@@ -45,7 +45,7 @@ body{
     font-family: 'Neucha', cursive;
     color: #78AE48;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-right: 50px;
+    margin-right: 2px;
 }
 .links a {
     color: white;
