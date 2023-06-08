@@ -3,11 +3,7 @@ body{
     background-image: url(Transition.png);
     margin: 0 0 0 0;
 }
-/*
-* { 
-    outline: 1px dotted rgb(255, 255, 255);
-}
-*/
+
 .headimage {
 
 	height: 150px;
@@ -47,10 +43,30 @@ body{
     font-size: 2rem;
     text-align: right;
     font-family: 'Neucha', cursive;
-    color: whitesmoke;
+    color: #78AE48;
     grid-template-columns: 1fr 1fr 1fr;
     margin-right: 50px;
 }
+.links a {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.container4 a {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.textlink{
+    color:whitesmoke
+}
+
 
 
 .banner {
@@ -79,8 +95,8 @@ body{
     overflow: hidden;
 
     display: grid; 
-    grid-template-columns: 1fr 1fr; /* lays out the collumns for the grid*/
-    margin: auto; /* fractional units, for quarters made up of 1fr*/
+    grid-template-columns: 1fr 1fr; 
+    margin: auto; 
     max-width: auto;
     }
 
@@ -153,10 +169,11 @@ body{
 
                     #container4 {
                         display: grid; 
-                        grid-template-columns: 1fr 1fr 1fr; /* lays out the collumns for the grid*/
-                        margin: auto; /* fractional units, for quarters made up of 1fr*/
+                        grid-template-columns: 1fr 1fr 1fr; 
+                        margin: auto; 
                         max-width: auto;
                         max-height: 500vh;
+                        color: whitesmoke;
                         }
                     #box_division4 {
                         display: grid;
@@ -166,6 +183,7 @@ body{
                          padding-top: 300;
                           max-width: auto;
                           grid-column: 1/6;
+                          color: whitesmoke;
                         } 
                     
                           #text3 {
@@ -209,8 +227,8 @@ body{
 
 #container {
     display: grid; 
-    grid-template-columns: 1fr 1fr; /* lays out the collumns for the grid*/
-    margin: auto; /* fractional units, for quarters made up of 1fr*/
+    grid-template-columns: 1fr 1fr;
+    margin: auto; 
     max-width: auto;
     max-height: 1000vh;
     }
@@ -330,7 +348,7 @@ body{
             padding-left: 20px;
             font-size: 2rem;
             font-family: 'Architects Daughter', cursive;
-            background-image: url(playground.webp);
+            background-image: url(playground.png);
             }
             #img8 {
                 background-color: #78AE48;
@@ -380,8 +398,8 @@ body{
 
         #container {
             display: grid; 
-            grid-template-columns: 1fr 1fr; /* lays out the collumns for the grid*/
-            margin: auto; /* fractional units, for quarters made up of 1fr*/
+            grid-template-columns: 1fr 1fr; 
+            margin: auto; 
             max-width: auto;
             max-height: 3000vh;
             }
